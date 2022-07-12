@@ -8,6 +8,6 @@ daz.s=12;
 console.log(daz);
 
 function Greate_OBJ(){
-  var that = {};
+  var that = Object.create(null);
   return that;
 }
